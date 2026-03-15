@@ -1,0 +1,20 @@
+{
+  "input_shape": [
+    64,
+    87,
+    1
+  ],
+  "sample_rate": 22050,
+  "duration": 2,
+  "n_mels": 64,
+  "hop_length": 512,
+  "n_fft": 2048,
+  "target_shape": [
+    64,
+    87
+  ],
+  "labels": {
+    "0": "NORMAL",
+    "1": "CRACKED"
+  }
+}
